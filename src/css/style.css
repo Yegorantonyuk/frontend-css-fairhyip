@@ -1,20 +1,64 @@
-body{
-    background-image: url(../images/bg_body.jpg);
-    background-color: #c7b39b;
-    margin-left: 100px
+body {
+    background-image: url(../images/bg_body.jpg);  
 }
 
-.lang-list .auth {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+header {
+    margin-bottom: 41px;
+}
+.article, .promo{
+    margin-left: 246px;
+    margin-right: 135px;
+}
+.logo{
+   position: absolute;
+   /* right: 870px; */
+   left: 132px;
+}
+ p{
+     color: white;
+ }
+ h1{
+     color: #ead4aa;
+ }
+ h2{
+     color: #fff68d;
+ }
+.auth {
+    height: 150px;
+    width: 150px;
+    margin: 20px 0;
+    position: absolute; 
+    top: 0px;
+    right: 0px; 
+    display: flex;
+}
+.lang-list{
+    display: flex;
 }
 
-.mainmenu{
-    overflow: hidden;
-    color: #461500;
-    font-size: 14px;
-    text-decoration: none;
+img{
+    position: relative;
+    left: -100px;
+    top: 70px;
+}
+
+ul.menu-list {
+    align-items: center;
+    height: 100%;
+    display: flex;
 }
 
 
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    display: block;
+}
+
+li {
+    display: inline;
+    margin-right: -4px;
+    
+}
