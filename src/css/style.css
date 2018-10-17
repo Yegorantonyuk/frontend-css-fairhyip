@@ -19,12 +19,26 @@ h1, h2 {
     font-weight: 300;
     color: #fff68d;
 }
+h2{
+    font-size: 18px;
+    color: #fff78d;
+    margin-bottom: 15px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .wrapper{
     width: 1000px;
     margin: 0 auto;
 }
 
+/*_____HEADER_____*/
 .header {
     padding: 64px 0 0;
     position: relative;
@@ -37,6 +51,8 @@ h1, h2 {
     position:  absolute;
     right: 0;
     bottom: 0;
+    border-radius: 5px;
+
 }
 
 .header .mainmenu .menu-list .menu-item{
@@ -81,7 +97,39 @@ h1, h2 {
     line-height: 39px;
     text-decoration: none;
 }
+.header .lang-item::before{
+    content: "|";
+    padding: 0 6px;
+}
+/*_____HEADER_____*/
 
+/*_____ARTICLE_____*/
+.content {
+  margin-top: 30px;
+  padding-bottom: 65px;
+
+  border-bottom: 1px solid #9d8a54;
+}
+.content .promo::before{
+    content: url("../images/bg_about.png");
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+.content .promo{
+    position: relative;
+    margin-bottom: 45px;
+    padding: 20px 45px 30px 145px;
+    background-image: url("../images/bg_promo.png");
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #f9da5a;
+    font-style: italic;
+}
 .article{
     position: relative;
     padding-left: 144px;
@@ -95,3 +143,30 @@ h1, h2 {
     width: 100px;
     height: auto;
 }
+/*_____ARTICLE_____*/
+
+/*_____FOOTER_____*/
+
+.footer {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    border-top: 1px solid rgba(215, 182, 73, .44);
+    
+    color: rgb(215, 182, 73);
+    padding: 40px 20px 0;
+    height: 76px;
+    box-sizing: border-box;
+}
+.footermenu .menu-list{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+.footermenu .menu-list .menu-item{
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: -5px;
+    border-radius: 5px;
+}
+/*_____FOOTER_____*/
