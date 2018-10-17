@@ -100,7 +100,12 @@ p {
 .header .lang-item::before{
     content: "|";
     padding: 0 6px;
+    
 }
+.header .lang-item:first-child::before{
+    display: none;
+}
+
 /*_____HEADER_____*/
 
 /*_____ARTICLE_____*/
