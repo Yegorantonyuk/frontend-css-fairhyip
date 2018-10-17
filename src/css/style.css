@@ -5,8 +5,8 @@ body {
     font-size: 11px;
     line-height: normal;
     cursor: default;
-    margin-right: 100px;
-    margin-left: 100px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
 }
 
 a {
@@ -18,6 +18,11 @@ h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
     color: #fff68d;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .header {
@@ -50,4 +55,31 @@ h1, h2 {
 
 .header .auth{
     right: 20px;
+}
+
+.header .menu-list .menu-item.active{
+    background: url("../images/bg_menu-item-active.png") no-repeat;
+    background-size: cover;
+}
+.header .mainmenu .menu-item a{
+    display: block;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color:  #461500;
+    font-size: 14px;
+    line-height: 39px;
+    text-decoration: none;
+}
+
+.article{
+    position: relative;
+    padding-left: 144px;
+    min-height: 85px;
+}
+
+.article img{
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 32px);
+    width: 100px;
+    height: auto;
 }
