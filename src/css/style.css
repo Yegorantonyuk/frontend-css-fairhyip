@@ -53,6 +53,18 @@ h1, h2 {
     
 }
 
+.header .lang-list, .header .logo {
+    left: 20px;
+}
+
+.header .lang-list .lang-item,
+.header .auth .auth-link a{
+    display: inline-block;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+
 .header .auth{
     right: 20px;
 }
