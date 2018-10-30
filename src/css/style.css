@@ -77,7 +77,7 @@ p {
 .header .auth .auth-link a{
     display: inline-block;
     margin-right: 2px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
