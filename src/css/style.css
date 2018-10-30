@@ -94,13 +94,18 @@ p {
     line-height: 39px;
     text-decoration: none;
 }
-.header .lang-item::before{
+/* .header .lang-item::before{
     content: "|";
     padding: 0 6px;
-    
-}
-.header .lang-item:first-child::before{
+} */
+.header .lang-item:first-child::before, .header .auth-link:first-child::before, .footer .menu-item:first-child::before {
     display: none;
+}
+.header .lang-item::before, .header .auth-link::before, .footer .menu-item::before {
+    content: "|";
+    padding: 0 6px;
+    color: #ffffff;
+    cursor: default;
 }
 
 /*_____HEADER_____*/
@@ -171,4 +176,5 @@ p {
     margin-right: -5px;
     border-radius: 5px;
 }
+
 /*_____FOOTER_____*/
